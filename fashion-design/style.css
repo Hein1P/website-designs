@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+color{
+    background-color: #ffe7cb;
+    /* background-color: #77430b; logo */
+    background-color: #a35d12;
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: #ffe7cb;
+    border-left: 20px solid #77430b;
+    border-right: 20px solid #77430b;
+}
+.logo{
+    color: #77430b;
+    font-size: 4rem;
+    margin-left: 15%;
+    margin-top: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.navbar h1{   
+    display: inline;
+    font-size: 5rem;
+    margin-left: -2rem;
+    color: #77430b;
+}
+
+.navbar a{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #77430b;
+    color: white;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    transform: skew(-30deg);
+}
+.container{
+    display: flex;
+}
+.container1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+}
+.container1 h2{
+    font-size: 3rem;
+    font-style: italic;
+}
+.container1 p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.img2{
+    border: 1px solid #77430b;
+    width: 350px;
+    height: 500px;
+    background-color: #77430b;
+}
+.container1 img{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-right: 20%;
+}
+.img1{
+    margin-top: 1rem;
+    border: 1px solid #77430b;
+    width: 350px;
+    height: 500px;
+    background-color: #77430b;
+}
+.container2 img{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+.container2 a{
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #77430b;
+    color: white;
+    height: 90px;
+    width: 250px;
+    text-align: center;
+    transform: skew(-30deg);
+}

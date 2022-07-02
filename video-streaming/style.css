@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 4rem 2rem 4rem 2rem;
+    color: #fff;
+    background-color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+a{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.special{
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.logo{
+    text-align: center;
+}
+.logo i{
+    font-size: 3rem;
+}
+.logo h1{
+    font-weight: 200;
+    font-size: 2rem;
+}
+.line{
+    border-top: 5px solid #fff;
+}
+main{
+    padding: 4rem 2rem 4rem 2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.container div h2{
+    font-size: 2rem;
+}
+.text1{
+    font-size: 1.5rem;
+    color: green;
+}
+.text2{
+    font-size: 1.5rem;
+    color: red;
+}
+.text3{
+    font-size: 1.5rem;
+    color: orange;
+}
+.container div a{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+}

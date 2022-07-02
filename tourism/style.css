@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    display: flex;
+}
+aside{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2rem;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navEx{
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background-color: #feab51;
+    border: 1px solid #feab51;
+}
+.navLe{
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background-color: #feab51;
+    border: 1px solid #feab51;
+}
+ul{
+    padding-left: 1rem;
+}
+li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+main h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+main h2{
+    font-size: 3rem;
+    color: #feab51;
+    margin-left: 2rem;
+}
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+    aside{
+        flex-direction: row;
+        width: 100vw;
+        height: 10%;
+        order: 2;
+        height: 20vh;  
+        padding: 0;
+    }
+    .navEx{
+        display: none;
+    }
+    .navLe{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li a{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    main{
+        width: 100vw;
+        height: 80vh;
+    }
+}

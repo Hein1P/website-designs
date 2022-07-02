@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    
+}
+header{
+    background: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+    min-height: 100vh;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.logo{
+    color: #026e78;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    padding: 1rem;
+    border: 1px solid white;
+    width: 200px;
+    background-color: #2d99a4;
+}
+.first{
+    background-color: #fff;
+}
+.first a{
+    color: #026e78;
+}
+.last{
+    background-color: #026e78;
+}
+
+.middle{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.middle h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+    background-color: #026e78;
+    width: 100%;
+    padding: 1rem;
+    margin: 0%;
+}
+.booking{
+    font-size: 1.5rem;
+    color: #026e78;
+    background-color: #fff;
+    padding: 1rem;
+    width: 200px;
+    margin-top: 15px;
+}
+.menu{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #2d99a4;
+    padding: 1rem;
+    width: 200px;
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle h1{
+        font-size: 1.5rem;
+        }
+}

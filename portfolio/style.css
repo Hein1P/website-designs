@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.para{
+    width: 550px;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.phno{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    margin: 0;
+    font-size: 1.3rem;
+}
+.phno h4{
+    font-size: 1.2rem;
+}
+.container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.maintext h1{
+    font-size: 5rem;
+    font-weight: 100;
+    padding: 2rem;
+    background-color: #fff;
+}
+.maintext h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: right;
+}
+h2 span{
+    padding: 1rem;
+    background-color: grey;
+    display: inline-block;
+}
+span:last-child{
+    margin-right: 2rem;
+}
+.skills{
+    font-size: 2rem;
+}
+ul li{
+    list-style-type: "-";
+}
+i {
+    color: #fff;
+    opacity: 0.3;
+    font-size: 30rem;
+
+    position: fixed;
+    top: 10rem;
+    right: 15rem;
+}
+@media screen and (max-width: 768px){
+    .para{
+        width: 100%;
+        margin: 0;
+    }
+    .phno{
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .phno h4{
+        font-size: 1rem;
+    }
+    .container{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .maintext h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .maintext h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .skills{
+        font-size: 1rem;
+        text-align: center;
+        list-style-type: none;
+    }
+    ul li{
+        list-style-type:decimal;
+    }
+}

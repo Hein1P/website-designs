@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+    color: #fff;
+}
+.logo{
+    font-size: 2em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+.highlight{
+    background-color: #00c2ff;
+    text-decoration: none;
+}
+.selected{
+    font-weight: bold;
+}
+header{
+    background: url('car-bg.jpg');
+    background-size: cover;
+    background-position:center center ;
+    min-height: 100vh;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content{
+    margin-left: 25%;
+    font-size: 1.5rem;
+}
+.content h1{
+    color: #00c2ff;
+}
+.content a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: 1em sans-serif;
+}
+footer li{
+    list-style-type: none;
+}
+footer strong{
+    color: #00c2ff;
+}
